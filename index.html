@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PRIMER PROGRAMA EN JAVASCRIPT</title>
+</head>
+<body>
+</body>
+</html>
+    <script type="text/javascript">
+        var valor1 = Number(prompt("Digite el primer valor: "));
+        var valor2 = Number(prompt("Digite el segundo valor: "));
+        var valor3 = Number(prompt("Digite el tercer valor: "));
+
+
+        if (valor1 == valor2 && valor1 == valor3){
+   document.write("Los valores ingresados son iguales y valen: "+valor1+".");
+   } 
+   else {
+      if (valor1 > valor2 && valor1 > valor3){
+        document.write("El valor mayor es: "+valor1+".");
+         }         
+         else {
+             if (valor2 > valor1 && valor2 > valor3){
+                document.write("El valor mayor es: "+valor2+".");
+             }
+               
+         
+      else {
+         document.write("El valor mayor es: "+valor3+".");
+      }
+    } 
+}
+    document.write("<br />Primer valor: "+valor1)
+    document.write("<br />Segundo valor: "+valor2)
+    document.write("<br />Tercer valor: "+valor3)
+  
+</script>
